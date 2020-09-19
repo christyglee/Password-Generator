@@ -28,8 +28,9 @@ function generatePassword() {
       unserInput += lowercase;
       console.log(userInput);
     }
-  
+  // Set variable to confirm if user wants to unclude uppercase character
     var confirmUppercase = confirm("Click OK if you would like uppercase letters");
+    
     if (confirmUppercase) {
       unserInput += uppercase;
       console.log(userInput);
