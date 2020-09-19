@@ -47,7 +47,7 @@ function generatePassword() {
     if (confirmCharacter) {
       console.log(userInput);
     }
- 
+    // Set alert if not at least one character is selected
     if (confirmLowercase != true && confirmUppercase != true && confirmNumber != true && confirmCharacter != true) {
       alert("You must select at least one character type.");
       return false;
