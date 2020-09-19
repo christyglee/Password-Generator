@@ -37,12 +37,13 @@ function generatePassword() {
     }
   // Set variable to confirm if user wants to include number character
     var confirmNumber =  confirm("Click OK if you would like numeric charicters.");
-    // if user confirms uppercaes character, then set/add character type to password
+    // if user confirms uppercase character, then set/add character type to password
     if (confirmNumber) {
       console.log(userInput);
     }
-
+  // Set variable to confirm if user wants to include number character
     var confirmCharacter = confirm("Click OK if you would like special charicters.");
+    // if user confirms special character, then set/add character tyle to password 
     if (confirmCharacter) {
       console.log(userInput);
     }
