@@ -21,8 +21,9 @@ function generatePassword() {
       alert("Password must be between 8 - 128");
       return;
     }
-
+  // Set variable to confirm if user wants to include lowercase character
     var confirmLowercase =  confirm("Click OK if you would like lowercase letters.");
+    // if user confirm lowercase character, then set lowercase to password
     if (confirmLowercase) {
       unserInput += lowercase;
       console.log(userInput);
