@@ -14,6 +14,7 @@ function generatePassword() {
   var i = 0;
 
   // Set prompts and if statements
+  // Set confirm password length prompt
   var confirmLength = prompt("How many characters would you like your password to contain? (Must choose a number between 8 - 128.");
     console.log(confirmLength)
     if (confirmLength < 8 || confirmLength > 128) {
