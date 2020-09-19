@@ -23,20 +23,21 @@ function generatePassword() {
     }
   // Set variable to confirm if user wants to include lowercase character
     var confirmLowercase =  confirm("Click OK if you would like lowercase letters.");
-    // if user confirm lowercase character, then set lowercase to password
+    // if user confirms lowercase character, then set lowercase to password
     if (confirmLowercase) {
       unserInput += lowercase;
       console.log(userInput);
     }
   // Set variable to confirm if user wants to unclude uppercase character
     var confirmUppercase = confirm("Click OK if you would like uppercase letters");
-    
+    // if user confirms uppercase, then set it to password
     if (confirmUppercase) {
       unserInput += uppercase;
       console.log(userInput);
     }
-
+  // Set variable to confirm if user wants to include number character
     var confirmNumber =  confirm("Click OK if you would like numeric charicters.");
+    // 
     if (confirmNumber) {
       console.log(userInput);
     }
